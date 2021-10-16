@@ -14,6 +14,7 @@ public class 리스트 {
         }
         System.out.println(list);
 
+        // list.remove("이") 하면 개별 삭제
         list.clear();
 
         System.out.println(list);
