@@ -1,4 +1,4 @@
-package com.sosow0212;
+package com.sosow0212.이론;
 
 public class HelloWorld {
     public static void main(String[] args) {

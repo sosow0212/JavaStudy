@@ -1,4 +1,4 @@
-package com.sosow0212;
+package com.sosow0212.이론;
 
 /**
  * 맵은 Key와 Value로 이뤄져 있다.

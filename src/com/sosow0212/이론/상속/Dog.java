@@ -1,4 +1,4 @@
-package com.sosow0212.상속;
+package com.sosow0212.이론.상속;
 
 public class Dog extends Animal {
 

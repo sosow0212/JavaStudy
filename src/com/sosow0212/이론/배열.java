@@ -1,4 +1,4 @@
-package com.sosow0212;
+package com.sosow0212.이론;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.sosow0212;
+package com.sosow0212.이론;
 
 class Updater {
     public void update(CallByValue counter) {
