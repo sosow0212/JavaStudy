@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * 입력
- * 4 5 1 3
+ * 4 5 1 (정점의 개수, 간선의 개수, 탐색을 시작할 정점의 번호)
  * 1 2
  * 1 3
  * 1 4
@@ -39,7 +39,7 @@ public class bfs {
 
         Queue<Integer> q = new LinkedList<>();
 
-        int n = Graph.length;
+        int n = Graph.length; // == 10
 
         q.add(V);
         Visited[V] = true;
