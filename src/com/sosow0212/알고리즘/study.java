@@ -13,7 +13,6 @@ public class study {
 
     public static void bfs(int V) {
         Queue<Integer> q = new LinkedList<>();
-
         int n = Graph.length;
 
         q.add(V);
@@ -34,9 +33,10 @@ public class study {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        N = sc.nextInt(); // 노드의 개수
-        E = sc.nextInt(); // 간선의 개수
-        V = sc.nextInt(); // 시작할 정점의 번호
+
+        N = sc.nextInt();
+        E = sc.nextInt();
+        V = sc.nextInt();
 
         for(int i=0; i<E; i++) {
             int u = sc.nextInt();
