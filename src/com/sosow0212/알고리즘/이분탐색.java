@@ -15,7 +15,7 @@ import java.util.Scanner;
  * 찾고자 하는 값이 속해있지 않은 부분은 전혀 고려할 필요가 없어서, 매 단계에서 검색해야 할
  * 리스트의 크기를 반으로 줄일 수 있다.
  *
- * 데이터의 삽입이나 삭제가 빈번할 시에는 적합하지 않고, 주로 고정도니 데이터에 대한 탐색에 적합하다.
+ * 데이터의 삽입이나 삭제가 빈번할 시에는 적합하지 않고, 주로 고정된 데이터에 대한 탐색에 적합하다.
  *
  *
  * 이진 탐색의 구현은 다음과 같다.
@@ -38,7 +38,7 @@ public class 이분탐색 {
         System.out.println(binarySearch1(5, 0, arr.length-1)); // 2
 
         System.out.println("\n2. 반복을 이용한 이진 탐색"); // 순환보다 효율적임
-        System.out.println(binarySearch2(20, 0, arr.length-1)); // 6
+        System.out.println(binarySearch2(5, 0, arr.length-1)); // 2
     }
 
     // 재귀적 탐색
