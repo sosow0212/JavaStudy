@@ -2,10 +2,14 @@ package com.sosow0212.JavaStudy.functionalInterface;
 
 public class Main {
     public static void main(String[] args) {
-        boolean compareResult = compare(() -> 10 > 5);
+        int compareResult = generator(() -> makeRandom());
         int generatorResult = generator(() -> 1 + 2);
         System.out.println(compareResult);
         System.out.println(generatorResult);
+    }
+
+    public static int makeRandom() {
+        return 10;
     }
 
     public static boolean compare(CompareInterface compareInterface) {
