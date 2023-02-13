@@ -50,11 +50,8 @@ public class Stream {
         List<Integer> aProductId = productList.stream()
                 .filter(product -> product.getName().equals("A")) // 필터링
                 .sorted(Comparator.comparing(Product::getPrice)) // 정렬
-                .map(Product::getId).collect(Collectors.toList()); // 아이디 값 출력
-
-
-
-
+                .map(Product::getId)
+                .collect(Collectors.toList()); // 아이디 값 출력
     }
 
     public static Product productFactory(Integer id, String name, int price) {
